@@ -1,6 +1,6 @@
-##  Gas Utility Service Request Portal
+# Gas Utility Service Request Portal
 
-# Screen Shots -
+## Screen Shots -
 ![ScreenShotPro5](https://github.com/user-attachments/assets/f00a14d2-f4b3-4dd1-a0d1-919a3c1a7a52)
 ![ScreenShotPro2](https://github.com/user-attachments/assets/03e279b2-bbcf-4cb0-9a46-18bc6a223c5e)
 ![ScreenShotPro3](https://github.com/user-attachments/assets/763faebb-198b-4d4f-8303-21d7e8c81684)
@@ -10,18 +10,17 @@
 
 This Django project provides a web application for managing gas utility service requests from customers.
 
-# Key Features:
+## Key Features:
 
-# Customer Portal:
+## Customer Portal:
 1. User registration and login.
 2. Create new service requests (e.g., gas leaks, meter reading requests, billing inquiries).
 3. Upload images related to the service request.
 4. Describe the issue and its severity.
-
 5. Track the status of submitted requests.
 6. View historical service request records.
 
-# Admin Panel:
+## Admin Panel:
 1. Manage customer accounts (using Django Admin).
 2. View and manage all service requests.
 3. Update request status (e.g., "Pending," "In Progress," "Resolved," "Closed").
@@ -35,7 +34,7 @@ This Django project provides a web application for managing gas utility service 
 5. Django Reloader: For automatic server restarts during development.
 6. Tailwind CSS: For styling the user interface.
 
-# Project Structure:
+## Project Structure:
 **Project Structure**
 
 *   `gasauthority/` 
@@ -82,9 +81,9 @@ This Django project provides a web application for managing gas utility service 
     *   `ReadMe.md`
     
 
-# To Run the Project:
+## To Run the Project:
 
-```Create a virtual environment: python -m venv venv```
-```Activate the environment: source venv/bin/activate (Linux/macOS) or .\venv\Scripts\activate (Windows)```
-```Install requirements: pip install -r requirements.txt```
-```Run the development server: python manage.py runserver```
+1. ```Create a virtual environment: python -m venv venv```
+2. ```Activate the environment: source venv/bin/activate (Linux/macOS) or .\venv\Scripts\activate (Windows)```
+3. ```Install requirements: pip install -r requirements.txt```
+4. ```Run the development server: python manage.py runserver```
