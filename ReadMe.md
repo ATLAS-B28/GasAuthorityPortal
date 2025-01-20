@@ -19,19 +19,63 @@ This Django project provides a web application for managing gas utility service 
 4. Assign requests to technicians (if applicable).
 
 # Technologies Used:
-Django: Python web framework.
-SQLite: In-memory database for development.
-Django Forms: For creating user-friendly forms for data entry.
-Django CSRF Protection: To prevent Cross-Site Request Forgery attacks.
-Django Reloader: For automatic server restarts during development.
-Tailwind CSS: For styling the user interface.
+1. Django: Python web framework.
+2. SQLite: In-memory database for development.
+3. Django Forms: This is used to create user-friendly forms for data entry.
+4. Django CSRF Protection: To prevent Cross-Site Request Forgery attacks.
+5. Django Reloader: For automatic server restarts during development.
+6. Tailwind CSS: For styling the user interface.
 
 # Project Structure:
+**Project Structure**
 
+*   `gasauthority/` 
+    *   `gasauthority/` 
+        *   `__init__.py`
+        *   `models.py` 
+        *   `views.py`
+        *   `forms.py`
+        *   `urls.py`
+        *   `admin.py`
+        *   `tests.py` 
+        *   `utils.py` 
+    *   `customer_service/` 
+        *   `__init__.py`
+        *   `admin.py`
+        *   `models.py` 
+        *   `views.py`
+        *   `forms.py`
+        *   `urls.py`
+        *   `apps.py`
+        *   `tests.py`
+        *   `templates/`
+            *  `modify_req`
+            *  `register_page`
+            *  `service_track_requests`
+            *  `submit_req` 
+    *   `theme/`
+        *   `static/`
+            *  `style.css` 
+        *   `templates/`
+             *   `base`
+        *   `statis_src` 
+            *   `src/` 
+            *   `postcss.config.js`
+            *   `tailwind.config.js` 
+    *   `templates/` 
+        *  `navbar/`
+            * `login_page`
+            * `navbar`
+        * `base`
+    *   `db.sqlite3`
+    *   `.gitignore`
+    *   `manage.py`
+    *   `ReadMe.md`
+    
 
 # To Run the Project:
 
-Create a virtual environment: python -m venv venv
-Activate the environment: source venv/bin/activate (Linux/macOS) or .\venv\Scripts\activate (Windows)
-Install requirements: pip install -r requirements.txt
-Run the development server: python manage.py runserver
+```Create a virtual environment: python -m venv venv```
+```Activate the environment: source venv/bin/activate (Linux/macOS) or .\venv\Scripts\activate (Windows)```
+```Install requirements: pip install -r requirements.txt```
+```Run the development server: python manage.py runserver```
