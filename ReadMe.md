@@ -1,5 +1,13 @@
 ##  Gas Utility Service Request Portal
 
+# Screen Shots -
+![ScreenShotPro5](https://github.com/user-attachments/assets/f00a14d2-f4b3-4dd1-a0d1-919a3c1a7a52)
+![ScreenShotPro2](https://github.com/user-attachments/assets/03e279b2-bbcf-4cb0-9a46-18bc6a223c5e)
+![ScreenShotPro3](https://github.com/user-attachments/assets/763faebb-198b-4d4f-8303-21d7e8c81684)
+![ScreenShotPro4](https://github.com/user-attachments/assets/b2c3aaba-c5a0-4755-bb1f-b66dfca30837)
+![ScreenShotPro](https://github.com/user-attachments/assets/55e84473-018b-4e09-87cd-da1b0ab5a50e)
+
+
 This Django project provides a web application for managing gas utility service requests from customers.
 
 # Key Features:
@@ -9,6 +17,7 @@ This Django project provides a web application for managing gas utility service 
 2. Create new service requests (e.g., gas leaks, meter reading requests, billing inquiries).
 3. Upload images related to the service request.
 4. Describe the issue and its severity.
+
 5. Track the status of submitted requests.
 6. View historical service request records.
 
